@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoU_W2aNRMwma4sSANygwHghUlDh0HHVk&callback=initMap">
+        </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id = "header">
+    <div id = "title">
+        <div class = "title">Not</div>
+        <div class = "title">The</div>
+        <div class = "title">Weather</div>
+        <div class = "title">Channel</div>
+    </div>
+    </div>
+    <div id = "content">
+        <div id = "info">
+            <div class = "data">
+                <div class = "weather" id = "location"></div>
+            </div>
+            <div class="data">
+                <div class="weather" id="weather"></div>
+            </div>
+            <div class="data">
+                <span class="weather" id="skies"></span>
+            </div>
+            <div class="data">
+                <span class="weather" id="temp"></span>
+            </div>
+            <div id = "input">
+                <input id="city" placeholder="Enter Location" value=''>
+                <button id="submit" type="button">Submit</button>
+            </div>
+        </div>
+        <div id = "google">
+            <div id="map"></div>
+        </div>
+    </div>
+    
+     
+
+    <script src="myscript.js" async defer></script>
+</body>
+
+</html>

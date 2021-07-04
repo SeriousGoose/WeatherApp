@@ -1,0 +1,60 @@
+html,
+body {
+  color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #2248b8;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+#content {
+  display: flex;
+}
+#info {
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(75, 74, 74);
+  height: fit-content;
+}
+#input {
+  margin: 10px;
+}
+.data {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.weather {
+  margin-left: 20px;
+}
+#google {
+  margin: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  color: black;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+#header {
+  background-color: #223e92;
+  padding: 1px;
+}
+#title {
+  margin: 10px 10px 10px 20px;
+  padding: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: #2248b8;
+}
+#skies {
+  display: none;
+}
